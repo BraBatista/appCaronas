@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.RegisterFragment">
+
+        <LinearLayout
+            android:id="@+id/llMainLayoutRegister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#444444"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="Registrar Carona"
+                android:textColor="#6dffbf"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cidade de Origem:"
+                android:textColor="#6bfff7" />
+
+            <Spinner
+                android:id="@+id/spOrigem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cidade de Destino:"
+                android:textColor="#6bfff7" />
+
+            <Spinner
+                android:id="@+id/spDestino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/edtVagas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="3"
+                android:hint="Número de Vagas"
+                android:inputType="number|text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#80CBC4" />
+
+            <EditText
+                android:id="@+id/edtTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Número para Contato"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#80CBC4" />
+
+
+            <EditText
+                android:id="@+id/edtHrSaida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Horário de Saída"
+                android:inputType="text|time"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#80CBC4" />
+
+            <EditText
+                android:id="@+id/edtHrRetorno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Horário de Retorno"
+                android:inputType="text|time"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#80CBC4" />
+
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:textAllCaps="false" />
+            
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

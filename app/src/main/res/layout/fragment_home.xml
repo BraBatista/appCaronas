@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.HomeFragment">
+
+        <LinearLayout
+            android:id="@+id/llMainLayoutHome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#444444"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <!--
+            <EditText
+                android:id="@+id/edtCidOrigem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="cidade origem"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#52afaa" />
+
+            <EditText
+                android:id="@+id/edtCidDestino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="cidade destino"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#52afaa" />
+            -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="Pesquisar Caronas"
+                android:textColor="#6dffbf"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cidade de Origem:"
+                android:textColor="#6bfff7" />
+
+            <Spinner
+                android:id="@+id/spinnerOrigem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cidade de Destino:"
+                android:textColor="#6bfff7" />
+
+            <Spinner
+                android:id="@+id/spinnerDestino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/btnPesquisar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pesquisar"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oferecer Carona"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-testing:2.4.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.jdks/openjdk-16.0.2/caches/transforms-3/9e5680adbd5111a8ce8b5de2e8808982/transformed/navigation-testing-2.4.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../.jdks/openjdk-16.0.2/caches/transforms-3/9e5680adbd5111a8ce8b5de2e8808982/transformed/navigation-testing-2.4.2/res" />
+      <root url="file://$PROJECT_DIR$/../../.jdks/openjdk-16.0.2/caches/transforms-3/9e5680adbd5111a8ce8b5de2e8808982/transformed/navigation-testing-2.4.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../.jdks/openjdk-16.0.2/caches/modules-2/files-2.1/androidx.navigation/navigation-testing/2.4.2/21b5d44556179cf3963ae72d693eb6a6dd4b2e7f/navigation-testing-2.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
